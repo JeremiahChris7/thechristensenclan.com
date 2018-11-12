@@ -1,3 +1,18 @@
-.blue {
-    color: blue;
+.image-row {
+    margin: auto;
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-box {
+    width: 270px;
+}
+
+.image-box img {
+    width: 100%;
 }
