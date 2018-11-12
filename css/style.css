@@ -1,15 +1,18 @@
-.image-row {
-    margin: auto;
-    width: 80%;
-    border: 1px solid black;
+.image-column {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .image-box {
+    margin: 10px;
     width: 270px;
 }
 
