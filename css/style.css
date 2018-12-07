@@ -1,7 +1,35 @@
+.header {
+    background-color: grey;
+}
+
+.navigation {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.nav-link {
+    width: 37px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+
 .image-column {
+    margin: auto;
+    width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .image-row {
